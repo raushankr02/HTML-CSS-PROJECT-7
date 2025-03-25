@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    /* align-items: center; */
+    margin: 1rem 8rem;
+    font-size: 1.25rem;
+}
+
+
+.nav-items {
+    display: flex;
+    margin: 0 1rem;
+    padding: 10px 0;
+    color:rgb(48, 122, 211) ; 
+}
+
+.nav-items h5{
+    margin: 0;  
+    padding: 10px 10px;  
+}
+nav ,img{
+    margin-left: 1rem;
+}
+
+/* button */
+
+button{
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom right, purple, pink);
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    border-radius: 0.85rem;
+    border-style: none;
+    font-weight: 600;
+
+}
+
+   .signin-btn{
+     height: 2rem;
+     margin-top: 0.8rem;
+     margin-left: 3rem;
+}
+
+  .learn-more-btn {
+    margin-top: 2rem;
+     font-size: 2rem;
+     margin-left: 2rem;
+}
+
+.left-section h1{
+    color: rgb(48, 122, 211);
+    font-size: 5rem;
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+
+.left-section h4{
+    width: 13rem;
+    color: rgb(48, 122, 211);;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+
+
+ 
+
+/* image */
+.vector-dot{
+   
+  position: absolute;
+  top:1;
+  bottom: 0;
+  margin-bottom: 5.5rem;
+  margin-left: 8rem;
+
+}
+.vector-img{
+    position: absolute;
+    bottom: 0;
+     margin-left: 5rem;
+     margin-bottom: 0rem;
+     margin-top: 1rem;
+     transform: rotate(-18deg);
+    
+}
+.intro-img{
+    margin-top: 1rem;
+    margin-right: 2rem;
+  
+}
+.backcover{
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    margin-left: 6rem;
+}
+
+.intro-img{
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+
+.intro-section{
+    display: flex;
+}
